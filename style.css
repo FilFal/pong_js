@@ -1,0 +1,42 @@
+        /*
+         Font source: https://fonts.google.com/specimen/Roboto?preview.text
+         Font: Roboto mono
+        */
+
+        @font-face {
+            font-family: "robotoMonoThin";
+            src: url("Roboto-Thin.ttf");
+            }
+    
+            @font-face {
+            font-family: "robotoMonoThin";
+            src: url("Roboto-Regular.ttf");
+            font-weight: bold;
+            }
+    
+            body {
+                background-color: #000;
+            }
+    
+            .borderStyles {
+                border-color: #fff;
+                border-style: solid;
+            }
+    
+            .credits{
+                color: #fff;
+                font-size:20px;
+                font-family: robotoMonoThin;
+            }
+    
+            .title{
+                color: #fff;
+                font-size:25px;
+                font-family: robotoMonoThin;
+            }
+    
+            .controls{
+                color: #fff;
+                font-size:15px;
+                font-family: robotoMonoThin;
+            }
